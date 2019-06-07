@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # my-portfolio
 
 > mon personal website
@@ -20,3 +21,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+=======
+# My-Website
+A second version of my website using nuxt
+>>>>>>> 896709b5af7c87c3f29a0a1c4a1281f1dfde44fb
