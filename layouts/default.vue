@@ -1,6 +1,6 @@
 <template>
     <div>
-        <the-navbar></the-navbar>
+        <the-navbar>s</the-navbar>
         <nuxt />
     </div>
 </template>
@@ -9,8 +9,11 @@
 
 </style>
 <script>
-    import TheNavbar from "../components/the-navbar";
+    import TheNavbar from "../components/Thenavbar";
     export default {
-        components: {TheNavbar}
+        components: {
+            TheNavbar
+        }
     }
 </script>
+s
