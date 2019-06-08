@@ -17,7 +17,7 @@
             <div class="navbar-end">
                 <div class="navbar-item">
                     <div class="buttons">
-                        <nuxt-link to="/blog" class="button is-primary">
+                        <nuxt-link to="/blog" class="button is-primary is-outlined">
                             <strong>Blog</strong>
                         </nuxt-link>
                     </div>
@@ -39,5 +39,7 @@
 </script>
 
 <style scoped>
-
+    nav {
+        margin-bottom: 25px;
+    }
 </style>

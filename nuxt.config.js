@@ -12,7 +12,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ]
   },
   /*
@@ -23,6 +23,8 @@ export default {
   ** Global CSS
   */
   css: [
+    '@/assets/scss/main.scss',
+    '@assets/main.css'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -34,9 +36,14 @@ export default {
   */
   modules: [
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma',
     '@nuxtjs/axios',
+    '@nuxtjs/style-resources'
   ],
+  styleResources: {
+    scss: [
+      'assets/scss/main.scss',
+    ]
+  },
   axios: {
     baseURL: 'https://dev.to/api/'
   },
@@ -47,7 +54,7 @@ export default {
     postcss: {
       preset: {
         features: {
-          customProperties: false
+          customProperties: true
         }
       }
     },
