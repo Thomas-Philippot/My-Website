@@ -5,7 +5,7 @@ $grey: #273849;
 $green: #4fc08d;
 $brown: #757763;
 $beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
+$beige-lighter: #F9F2E7;
 
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
@@ -16,7 +16,7 @@ $secondary: $green;
 $link: $green;
 
 // Update some of Bulma's component variables
-//$body-background-color: $beige-lighter;
+$body-background-color: $beige-lighter;
 $footer-background-color: $primary;
 // Import only what you need from Bulma
 @import "~bulma/bulma";
