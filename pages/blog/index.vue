@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container is-jumbotron">
         <div class="columns">
             <div class="column is-full-tablet is-one-third-desktop " v-for="article in articles" :key="article.id">
                 <div class="card">

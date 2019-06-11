@@ -1,8 +1,9 @@
 <template>
     <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="container">
         <div class="navbar-brand">
             <nuxt-link to="/" class="navbar-item">
-                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                <img src="https://bulma.io/images/bulma-logo.png" height="48">
             </nuxt-link>
 
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
@@ -17,13 +18,14 @@
             <div class="navbar-end">
                 <div class="navbar-item">
                     <div class="buttons">
-                        <nuxt-link to="/blog" class="button is-primary is-outlined">
+                        <nuxt-link to="/blog" class="button is-primary is-outlined is-rounded">
                             <strong>Blog</strong>
                         </nuxt-link>
                     </div>
                 </div>
             </div>
         </div>
+      </div>
     </nav>
 </template>
 
@@ -40,6 +42,7 @@
 
 <style scoped>
     nav {
-        margin-bottom: 25px;
+      margin-bottom: 25px;
+      padding: 1.25rem 0;
     }
 </style>

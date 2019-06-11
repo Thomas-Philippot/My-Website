@@ -1,3 +1,4 @@
+require('dotenv').config();
 
 export default {
   mode: 'universal',
@@ -45,7 +46,7 @@ export default {
     ]
   },
   axios: {
-    baseURL: 'https://dev.to/api/'
+    baseURL: process.env.API_URL
   },
   /*
   ** Build configuration

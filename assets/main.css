@@ -1,3 +1,40 @@
-.container {
-    min-height: 73.7vh;
+.is-jumbotron {
+    min-height: 75.7vh;
+}
+
+.avatar {
+  margin: 2rem 0;
+}
+
+body {
+  line-height: 1.5;
+}
+
+section.is-success {
+  background-color: #4fc08d;
+}
+
+section.skills {
+  margin-top: -10rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 769px) {
+  .section.skills .box .content .columns .column {
+    border-right: 1px solid #E6ECF8;
+  }
+}
+
+.navbar .navbar-menu a.button.is-primary.is-outlined {
+  border-width: 2px;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 1.2rem;
+}
+
+@media screen and (min-width: 769px) {
+  .hero-foot img.is-bottom {
+    margin-bottom: -0.45rem;
+    max-width: 860px;
+  }
 }
