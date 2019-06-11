@@ -15,12 +15,16 @@ section.is-success {
 }
 
 section.skills {
-  margin-top: -10rem;
+  margin-top: -15vh;
   padding-bottom: 1rem;
 }
 
+.is-hover:hover {
+  box-shadow: 3px 3px 10px 0 #273849;
+}
+
 @media screen and (min-width: 769px) {
-  .section.skills .box .content .columns .column {
+  .section.skills .box .content .columns .has-border-right {
     border-right: 1px solid #E6ECF8;
   }
 }
