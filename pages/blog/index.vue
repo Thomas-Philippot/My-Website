@@ -34,17 +34,16 @@
                 articles: []
             }
         },
-        created () {
-            this.$axios.get('articles', {
-                params: {
-                    username: 'thomas_ph35'
-                }
-            }).then(response => {
-                this.articles = response.data
-            })
-        },
         asyncData (context) {
-
+          return context.app.$axios.get('articles', {
+            params: {
+              username: 'thomas_ph35'
+            }
+          }).then(response => {
+            return {
+              articles: response.data
+            }
+          })
         }
     }
 </script>

@@ -3,13 +3,26 @@
     <section class="hero has-text-centered">
       <div class="hero-body">
         <div class="container is-jumbotron">
-          <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
-            Fullstack studdent Developper
-          </h1>
-          <h2 class="subtitle is-size-4-desktop">
-            I am a french developper, learning in progress.
-          </h2>
-          <img class="avatar" src="/img/myAvatar.svg" alt="thomas philippot avatar" width="250rem">
+          <div class="columns is-modbile is-centered">
+            <div class="column is-half">
+              <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
+                Fullstack studdent Developper
+              </h1>
+              <h2 class="subtitle is-size-4-desktop">
+                I am a french developper, learning in progress.
+              </h2>
+            </div>
+          </div>
+          <div class="columns is-mobile is-centered">
+            <div class="column is-half">
+                <img class="avatar" src="/img/avatar.svg" alt="thomas philippot avatar" width="250rem">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <div class="container">
+          <img class="is-bottom" src="/img/banner.svg" alt="">
         </div>
       </div>
     </section>
@@ -31,12 +44,20 @@
         <div class="box">
           <div class="content">
             <div class="columns">
-              <div class="column has-border-right">
+              <div class="column has-border-right is-center">
                 <h1 class="title">Front End</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae ante ex. Vestibulum posuere dolor et massa convallis maximus. Donec vitae malesuada mi. Donec in odio augue. Vivamus mauris lectus, dapibus ornare ipsum nec, suscipit fermentum ex. Aenean id bibendum arcu. Nulla porta non libero sed congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in enim at felis tincidunt mollis sed in sem. Vestibulum gravida, elit id finibus sodales, metus enim dapibus magna, sit amet cursus felis dolor sed nulla. Integer nec erat turpis. Phasellus quis mattis turpis. Sed mauris dolor, iaculis id posuere ut, hendrerit sit amet lacus. Phasellus augue odio, malesuada eget ligula vel, aliquet interdum magna. Maecenas volutpat tempor lorem sit amet pretium. Phasellus id suscipit felis.</p>
+                <p>These are the front-end framework I worked with</p>
+                <img src="/img/vue.png" alt="logo vue js" class="is-128x128">
+                <img src="/img/angular.png" alt="logo angular" class="is-128x128">
+                <img src="/img/bootstrap.png" alt="logo bootstrap" class="is-128x128">
+                <img src="/img/bulma.png" alt="logo bulma" class="is-128x128">
               </div>
               <div class="column">
-                <h1 class="title">Front 2</h1>
+                <h1 class="title">Back End</h1>
+                <p>These are the back-end framework or languages I worked with</p>
+                <img src="/img/symfony.png" alt="logo symfony" class="is-128x128">
+                <img src="/img/java.png" alt="logo java" class="is-128x128">
+                <img src="/img/codeigniter.png" alt="logo codeigniter" class="is-128x128">
               </div>
             </div>
           </div>
