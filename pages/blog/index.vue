@@ -1,7 +1,15 @@
 <template>
-    <div class="container is-jumbotron">
+    <div class="container is-jumbotron" id="content">
+      <div class="columns">
+        <div class="column">
+          <p class="subtitle is-4">
+            Here are my <a href="https://dev.to">dev.to</a>  blog post.
+          </p>
+        </div>
+      </div>
         <div class="columns">
             <div class="column is-full-tablet is-one-third-desktop " v-for="article in articles" :key="article.id">
+              <nuxt-link :to="'blog/' + article.id">
                 <div class="card">
                     <div class="card-image">
                         <figure class="image">
@@ -11,7 +19,7 @@
                     <div class="card-content">
                         <div class="media">
                             <div class="media-content">
-                                <p class="title is-4"><nuxt-link :to="'blog/' + article.id">{{ article.title }}</nuxt-link></p>
+                                <p class="title is-4">{{ article.title }}</p>
                                 <p class="subtitle is-6">{{ article.description }}</p>
                             </div>
                         </div>
@@ -21,8 +29,10 @@
                         </div>
                     </div>
                 </div>
+              </nuxt-link>
             </div>
         </div>
+      <nuxt-link to="/" class="button is-primary is-outlined">Back</nuxt-link>
     </div>
 </template>
 
