@@ -1,9 +1,22 @@
-.is-jumbotron {
-    min-height: 75.7vh;
+.hero {
+    height: 86.4vh;
 }
 
-.avatar {
-  margin: 2rem 0;
+@media screen and (min-width: 769px) {
+  .hero-foot img.is-bottom {
+    margin-bottom: -0.45rem;
+    max-width: 860px;
+  }
+}
+
+img.is-bottom {
+  position: relative;
+  margin-top: -100vh;
+}
+
+
+.hero-body {
+  z-index: 10;
 }
 
 body {
@@ -15,12 +28,16 @@ section.is-success {
 }
 
 section.skills {
-  margin-top: -10rem;
+  margin-top: -15vh;
   padding-bottom: 1rem;
 }
 
+.is-hover:hover {
+  box-shadow: 3px 3px 10px 0 #273849;
+}
+
 @media screen and (min-width: 769px) {
-  .section.skills .box .content .columns .column {
+  .section.skills .box .content .columns .has-border-right {
     border-right: 1px solid #E6ECF8;
   }
 }
@@ -37,4 +54,10 @@ section.skills {
     margin-bottom: -0.45rem;
     max-width: 860px;
   }
+}
+
+img.is-128x128 {
+  width: 128px;
+  margin: 5px;
+  vertical-align: middle;
 }
