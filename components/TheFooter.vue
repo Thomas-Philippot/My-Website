@@ -1,27 +1,30 @@
 <template>
     <footer class="footer">
-        <div class="content has-text-centered">
-          <a class="button is-medium" href="https://twitter.com/Thomas_ph35" target="_blank">
-            <span class="icon is-small">
-              <i class="fab fa-twitter"></i>
-            </span>
-          </a>
-          <a class="button is-medium" href="https://dev.to/thomas_ph35" target="_blank">
-            <span class="icon is-small">
-              <i class="fab fa-dev"></i>
-            </span>
-          </a>
-          <a class="button is-medium" href="https://github.com/Thomas-Philippot" target="_blank">
-            <span class="icon is-small">
-              <i class="fab fa-github-alt"></i>
-            </span>
-          </a>
-          <a class="button is-medium" href="https://gitlab.com/Thomas_philippot" target="_blank">
-            <span class="icon is-small">
-              <i class="fab fa-gitlab"></i>
-            </span>
-          </a>
-        </div>
+      <div class="content has-text-centered">
+        <a class="button is-medium" href="https://twitter.com/Thomas_ph35" target="_blank">
+          <span class="icon is-small">
+            <i class="fab fa-twitter"></i>
+          </span>
+        </a>
+        <a class="button is-medium" href="https://dev.to/thomas_ph35" target="_blank">
+          <span class="icon is-small">
+            <i class="fab fa-dev"></i>
+          </span>
+        </a>
+        <a class="button is-medium" href="https://github.com/Thomas-Philippot" target="_blank">
+          <span class="icon is-small">
+            <i class="fab fa-github-alt"></i>
+          </span>
+        </a>
+        <a class="button is-medium" href="https://gitlab.com/Thomas_philippot" target="_blank">
+          <span class="icon is-small">
+            <i class="fab fa-gitlab"></i>
+          </span>
+        </a>
+      </div>
+      <div class="bitcoin has-text-centered">
+        <img src="/img/btc-adresse.png" alt="BTC Adresse" height="80" width="80">
+      </div>s
       <div class="bulma has-text-centered">
         <p>Made with heart by Thomas Philippot</p>
         <a href="https://bulma.io">
