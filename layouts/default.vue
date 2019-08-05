@@ -10,7 +10,7 @@
 
 </style>
 <script>
-    import TheNavbar from "../components/Thenavbar";
+    import TheNavbar from "../components/TheNavbar";
     import TheFooter from "../components/TheFooter";
     export default {
         components: {
