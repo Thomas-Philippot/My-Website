@@ -82,7 +82,7 @@
           </div>
           <div class="column">
             <div class="box is-hover">
-              <a href="https://esr-handball.fr" target="_blank">
+              <a href="https://nuxt-showcase-app.netlify.com" target="_blank">
                 <img src="/img/showcase.png" alt="my sowcase app">
               </a>
             </div>

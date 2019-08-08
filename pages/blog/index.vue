@@ -7,6 +7,7 @@
           </p>
         </div>
       </div>
+      <div class="container">
         <div class="columns">
             <div class="column is-full-tablet is-one-third-desktop " v-for="article in articles" :key="article.id">
               <nuxt-link :to="'blog/' + article.id">
@@ -32,7 +33,8 @@
               </nuxt-link>
             </div>
         </div>
-      <nuxt-link to="/" class="button is-primary is-outlined">Back</nuxt-link>
+        <nuxt-link to="/" class="button is-primary is-outlined">Back</nuxt-link>
+      </div>
     </div>
 </template>
 
