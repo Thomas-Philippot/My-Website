@@ -72,7 +72,7 @@ export default {
   },
   robots: {
     UserAgent: '*',
-    Disallow: '/'
+    Disallow: ''
   },
   generate: {
     subFolder: false,
