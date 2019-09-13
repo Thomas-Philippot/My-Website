@@ -11,7 +11,6 @@
         name: "_postID",
         asyncData (context) {
             return context.app.$axios.get('articles/' + context.params.postId).then(response => {
-              console.log(response.data)
               if (response.data.user.name !== 'Thomas Philippot') {
                 return {
                   article: {
