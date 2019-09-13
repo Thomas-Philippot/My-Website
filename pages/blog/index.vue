@@ -2,8 +2,9 @@
     <div class="container is-jumbotron" id="content">
       <div class="columns">
         <div class="column">
-          <p class="subtitle is-4">
-            Here are my <a href="https://dev.to">dev.to</a>  blog post.
+            <the-jumbotron :list="jumbotron"></the-jumbotron>
+            <p class="subtitle is-4">
+              Here are my <a href="https://dev.to">dev.to</a>  blog post.
           </p>
         </div>
       </div>
@@ -39,11 +40,20 @@
 </template>
 
 <script>
+    import TheJumbotron from "../../components/TheJumbotron";
     export default {
         name: "index",
+        components: {TheJumbotron},
         data () {
             return {
-                articles: []
+                articles: [],
+                jumbotron: [
+                    {
+                        url: '/blog',
+                        name: 'blog',
+                        icon: 'fab fa-dev'
+                    }
+                ]
             }
         },
         asyncData (context) {
