@@ -44,7 +44,8 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/style-resources',
     '@nuxtjs/google-analytics',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots'
   ],
   axios: {
     baseURL: process.env.API_URL
@@ -68,6 +69,10 @@ export default {
         }
       }).then(res => res.data.map(response => '/blog/' + response.id))
     }
+  },
+  robots: {
+    UserAgent: '*',
+    Disallow: '/'
   },
   generate: {
     subFolder: false,
