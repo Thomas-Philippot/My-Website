@@ -72,7 +72,8 @@ export default {
   },
   robots: {
     UserAgent: '*',
-    Disallow: ''
+    Disallow: '',
+    Sitemap: 'https://thomas-philippot.netlify.com/sitemap.xml'
   },
   generate: {
     subFolder: false,
