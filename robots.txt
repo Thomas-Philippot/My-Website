@@ -1,0 +1,3 @@
+Sitemap: https://thomas-philippot.netlify.com/sitemap.xml
+User-agent:*
+ Disallow:
