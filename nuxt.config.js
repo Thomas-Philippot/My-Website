@@ -1,4 +1,5 @@
 require('dotenv').config();
+const axios = require('axios');
 
 export default {
   mode: 'universal',
@@ -41,15 +42,31 @@ export default {
   modules: [
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/axios',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    '@nuxtjs/google-analytics',
+    '@nuxtjs/sitemap'
   ],
+  axios: {
+    baseURL: process.env.API_URL
+  },
   styleResources: {
     scss: [
       'assets/scss/main.scss',
     ]
   },
-  axios: {
-    baseURL: process.env.API_URL
+  googleAnalytics: {
+    id: 'UA-147974021-1'
+  },
+  sitemap: {
+    gzip: true,
+    exclude: [],
+    routes () {
+      return axios.get(process.env.API_URL + 'articles', {
+        params: {
+          username: 'thomas_ph35'
+        }
+      }).then(res => res.data.map(response => '/blog/' + response.id))
+    }
   },
   /*
   ** Build configuration
