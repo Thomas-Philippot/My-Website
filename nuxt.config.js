@@ -44,8 +44,7 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/style-resources',
     '@nuxtjs/google-analytics',
-    '@nuxtjs/sitemap',
-    '@bazzite/nuxt-netlify'
+    '@nuxtjs/sitemap'
   ],
   axios: {
     baseURL: process.env.API_URL
@@ -70,7 +69,15 @@ export default {
       }).then(res => res.data.map(response => '/blog/' + response.id))
     }
   },
-  netlify: {
+  generate: {
+    subFolder: false,
+    routes() {
+      return axios.get(process.env.API_URL + 'articles', {
+        params: {
+          username: 'thomas_ph35'
+        }
+      }).then(res => res.data.map(response => '/blog/' + response.id))
+    }
   },
   /*
   ** Build configuration
