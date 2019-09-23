@@ -11,7 +11,6 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@bazzite/nuxt-netlify": "^0.1.1",
     "@fortawesome/fontawesome-free": "^5.11.1",
     "@nuxtjs/axios": "^5.6.0",
     "@nuxtjs/dotenv": "^1.4.1",

@@ -10,7 +10,7 @@
 <script>
     import TheJumbotron from "../../../components/TheJumbotron";
     export default {
-        name: "_postID",
+        name: "blog-post",
         components: {TheJumbotron},
         data () {
             return {
