@@ -15,7 +15,7 @@
           </div>
           <div class="columns is-mobile is-centered">
             <div class="column is-half">
-                <img class="avatar" src="/img/avatar.svg" alt="thomas philippot avatar" width="250rem">
+                <img class="avatar" src="/img/avatar.svg" alt="thomas philippot avatar" width="250r">
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@
     </section>
     <section class="section">
       <div class="container has-text-centered">
-        <img src="/img/web_dev.svg" alt="web developper" width="450rem">
+        <img src="/img/web_dev.svg" alt="web developper" width="450r">
       </div>
     </section>
     <section class="is-medium">
