@@ -29,13 +29,13 @@
     <section class="section is-medium is-success has-text-centered is-long">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title">
+          <h2 class="title">
             Hi my name is Thomas.
-          </h1>
-          <h2 class="subtitle has-text-white">
+          </h2>
+          <h3 class="subtitle has-text-white">
             I'm learning various programming laguages since 3 years. I'm now a developper for a french company since
             1 year.
-          </h2>
+          </h3>
         </div>
       </div>
     </section>
@@ -45,7 +45,7 @@
           <div class="content">
             <div class="columns">
               <div class="column has-border-right is-center">
-                <h1 class="title">Front End</h1>
+                <h2 class="title">Front End</h2>
                 <p>These are the front-end framework I worked with</p>
                 <img src="/img/vue.png" alt="logo vue js" class="is-128x128">
                 <img src="/img/angular.png" alt="logo angular" class="is-128x128">
@@ -53,7 +53,7 @@
                 <img src="/img/bulma.png" alt="logo bulma" class="is-128x128">
               </div>
               <div class="column">
-                <h1 class="title">Back End</h1>
+                <h2 class="title">Back End</h2>
                 <p>These are the back-end framework or languages I worked with</p>
                 <img src="/img/symfony.png" alt="logo symfony" class="is-128x128">
                 <img src="/img/java.png" alt="logo java" class="is-128x128">
@@ -71,7 +71,7 @@
     </section>
     <section class="is-medium">
       <div class="container">
-        <h1 class="title has-text-centered">The projects I made</h1>
+        <h2 class="title has-text-centered">The projects I made</h2>
         <div class="columns has-text-centered">
           <div class="column">
             <div class="box is-hover">
