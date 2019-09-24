@@ -1,4 +1,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ca16899c7c294598b5d93461ac37e67e)](https://www.codacy.com/manual/tp456/My-Website?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Thomas-Philippot/My-Website&amp;utm_campaign=Badge_Grade)
+## Thomas Philippot
+I'm a french full stack developper and this is my website.
+Feel free to fork / download this project !
 ## Build Setup
 
 ``` bash
@@ -7,13 +10,6 @@ $ npm install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
+$ nuxt dev -o
 ```
-
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
