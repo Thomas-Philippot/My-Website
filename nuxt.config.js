@@ -8,7 +8,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: "Thomas Philippot",
+    title: "Thomas Philippot - Full Stack developer",
     htmlAttrs: {
       lang: "en",
     },
