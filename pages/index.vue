@@ -6,10 +6,10 @@
           <div class="columns is-modbile is-centered">
             <div class="column is-half">
               <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
-                Fullstack studdent Developper
+                Fullstack student Developer
               </h1>
               <h2 class="subtitle is-size-4-desktop">
-                I am a french developper, learning in progress.
+                I am a french developer, learning in progress.
               </h2>
             </div>
           </div>
@@ -33,7 +33,7 @@
             Hi my name is Thomas.
           </h2>
           <h3 class="subtitle has-text-white">
-            I'm learning various programming laguages since 3 years. I'm now a developper for a french company since
+            I'm learning various programming laguages since 3 years. I'm now a developer for a french company since
             1 year.
           </h3>
         </div>
@@ -66,7 +66,7 @@
     </section>
     <section class="section">
       <div class="container has-text-centered">
-        <img src="/img/web_dev.svg" alt="web developper" width="450r">
+        <img src="/img/web_dev.svg" alt="web developer" width="450r">
       </div>
     </section>
     <section class="is-medium">
