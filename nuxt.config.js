@@ -67,7 +67,7 @@ export default {
     id: "UA-147974021-1"
   },
   sitemap: {
-    hostname: "https://thomas-philippot.netlify.com",
+    hostname: "https://thomas-philippot.dev",
     gzip: true,
     exclude: [],
     routes () {
