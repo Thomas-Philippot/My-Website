@@ -3,7 +3,7 @@
       <div class="container">
         <div class="navbar-brand">
             <nuxt-link to="/" class="navbar-item">
-              <h1 class="title is-3">Thomas Philippot</h1>
+              <h1 class="is-title is-3">Thomas Philippot</h1>
             </nuxt-link>
 
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"

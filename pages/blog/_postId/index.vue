@@ -8,7 +8,7 @@
         </div>
         <div class="columns">
           <div class="column">
-            <h1 class="is-size-1 title">{{ article.title }}</h1>
+            <h1 class="is-size-1 is-title is-1">{{ article.title }}</h1>
             <div class="tags">
               <span
                 v-for="tag in article.tags"
