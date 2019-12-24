@@ -5,7 +5,7 @@
         <div class="container is-jumbotron">
           <div class="columns is-modbile is-centered">
             <div class="column is-half">
-              <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
+              <h1 class="is-title is-spaced is-1">
                 Fullstack student Developer
               </h1>
               <h2 class="subtitle is-size-4-desktop">
@@ -29,7 +29,7 @@
     <section class="section is-medium is-success has-text-centered is-long">
       <div class="hero-body">
         <div class="container">
-          <h2 class="title">
+          <h2 class="is-title is-2">
             Hi my name is Thomas.
           </h2>
           <h3 class="subtitle has-text-white">
@@ -71,7 +71,7 @@
     </section>
     <section class="is-medium">
       <div class="container">
-        <h2 class="title has-text-centered">The projects I made</h2>
+        <h2 class="is-title has-text-centered">The projects I made</h2>
         <div class="columns has-text-centered">
           <div class="column">
             <div class="box is-hover">

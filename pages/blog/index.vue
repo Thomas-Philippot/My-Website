@@ -21,7 +21,7 @@
                     <div class="card-content">
                         <div class="media">
                             <div class="media-content">
-                                <p class="title is-4">{{ article.title }}</p>
+                                <p class="is-title blog is-4">{{ article.title }}</p>
                                 <p class="subtitle is-6">{{ article.description }}</p>
                             </div>
                         </div>

@@ -3,26 +3,45 @@
 // Set your brand colors
 $grey: #273849;
 $green: #4fc08d;
-$brown: #757763;
-$beige-light: #D0D1CD;
-$beige-lighter: #F9F2E7;
+$grey-lighter: #e6e6e6;
+$family-angelina: "Angelina", sans-serif;
 
 
 // Update Bulma's global variables
-$family-sans-serif: "Nunito", sans-serif;
-$grey-dark: $brown;
-$grey-light: $beige-light;
+$family-sans-serif: "Raleway", sans-serif;
 $primary: $grey;
 $success: $green;
 $link: $green;
 
 // Update some of Bulma's component variables
-$body-background-color: $beige-lighter;
+$body-background-color: $grey-lighter;
 $footer-background-color: $primary;
 $subtitle-color: $primary;
 // Import only what you need from Bulma
 @import "~bulma/bulma";
 
+.is-title {
+  font-family: $family-angelina;
+  font-size: 3rem !important;
+}
+
+.is-blog-title {
+  font-family: $family-angelina;
+  font-size: 2.5rem !important;
+}
+
+.is-title.is-1 {
+  font-size: 5rem !important;
+}
+
+.is-title.is-2 {
+  font-size: 4rem !important;
+}
+
+
+.is-title.is-3 {
+  font-size: 3rem !important;
+}
 
 .highlight .nt, .highlight .k, .highlight .kc {
   color: $green;
