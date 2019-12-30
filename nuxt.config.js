@@ -18,7 +18,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content:  "I'm a fullstack studdent developper, learning javascript frameworks since 4 years."
+        content:  "Thomas Philippot fullstack studdent developper, learning and using web frameworks since 4 years."
       }
     ],
     link: [
