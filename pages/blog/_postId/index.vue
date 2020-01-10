@@ -3,7 +3,7 @@
         <the-jumbotron :list="jumbotron"></the-jumbotron>
         <div class="columns is-centered">
           <div class="column is-half">
-            <img :src="article.cover_image" :alt="article.title">
+            <img :src="article.cover_image" :alt="article.title" loading="lazy">
           </div>
         </div>
         <div class="columns">

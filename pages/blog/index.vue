@@ -15,7 +15,7 @@
                 <div class="card">
                     <div class="card-image">
                         <figure class="image">
-                            <img :src="article.cover_image" alt="Placeholder image">
+                            <img :src="article.cover_image" alt="Placeholder image" loading="lazy">
                         </figure>
                     </div>
                     <div class="card-content">
