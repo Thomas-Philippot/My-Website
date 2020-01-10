@@ -47,17 +47,17 @@
               <div class="column has-border-right is-center">
                 <h2 class="title">Front End</h2>
                 <p>These are the front-end framework I worked with</p>
-                <img src="/img/vue.png" alt="logo vue js" class="is-128x128">
-                <img src="/img/angular.png" alt="logo angular" class="is-128x128">
-                <img src="/img/bootstrap.png" alt="logo bootstrap" class="is-128x128">
-                <img src="/img/bulma.png" alt="logo bulma" class="is-128x128">
+                <img src="/img/vue.png" alt="logo vue js" class="is-128x128" loading="lazy">
+                <img src="/img/angular.png" alt="logo angular" class="is-128x128" loading="lazy">
+                <img src="/img/bootstrap.png" alt="logo bootstrap" class="is-128x128" loading="lazy">
+                <img src="/img/bulma.png" alt="logo bulma" class="is-128x128" loading="lazy">
               </div>
               <div class="column">
                 <h2 class="title">Back End</h2>
                 <p>These are the back-end framework or languages I worked with</p>
-                <img src="/img/symfony.png" alt="logo symfony" class="is-128x128">
-                <img src="/img/java.png" alt="logo java" class="is-128x128">
-                <img src="/img/codeigniter.png" alt="logo codeigniter" class="is-128x128">
+                <img src="/img/symfony.png" alt="logo symfony" class="is-128x128" loading="lazy">
+                <img src="/img/java.png" alt="logo java" class="is-128x128" loading="lazy">
+                <img src="/img/codeigniter.png" alt="logo codeigniter" class="is-128x128" loading="lazy">
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@
     </section>
     <section class="section">
       <div class="container has-text-centered">
-        <img src="/img/web_dev.svg" alt="web developer" width="450r">
+        <img src="/img/web_dev.svg" alt="web developer" width="450r" loading="lazy">
       </div>
     </section>
     <section class="is-medium">
@@ -76,14 +76,14 @@
           <div class="column">
             <div class="box is-hover">
               <a href="https://esr-handball.fr" target="_blank">
-                <img src="/img/esr-hand.png" alt="my sowcase app">
+                <img src="/img/esr-hand.png" alt="my sowcase app" loading="lazy">
               </a>
             </div>
           </div>
           <div class="column">
             <div class="box is-hover">
               <a href="https://nuxt-showcase-app.netlify.com" target="_blank">
-                <img src="/img/showcase.png" alt="my sowcase app">
+                <img src="/img/showcase.png" alt="my sowcase app" loading="lazy">
               </a>
             </div>
           </div>
