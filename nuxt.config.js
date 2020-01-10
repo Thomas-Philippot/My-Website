@@ -26,7 +26,7 @@ export default {
       { rel: "stylesheet", href: "https://use.fontawesome.com/releases/v5.7.2/css/all.css" }
     ],
     script: [
-      // { src: 'https://noelmace.github.io/widget-engreve/widget.js' }
+       { src: 'https://noelmace.github.io/widget-engreve/widget.js' }
     ],
   },
   /*
