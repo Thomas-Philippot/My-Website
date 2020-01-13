@@ -56,7 +56,8 @@ export default {
     "@nuxtjs/style-resources",
     "@nuxtjs/google-analytics",
     "@nuxtjs/sitemap",
-    "@nuxtjs/robots"
+    "@nuxtjs/robots",
+    '@nuxtjs/component-cache'
   ],
   axios: {
     baseURL: process.env.API_URL
@@ -85,6 +86,9 @@ export default {
     UserAgent: "*",
     Disallow: "",
     Sitemap: "https://thomas-philippot.netlify.com/sitemap.xml"
+  },
+  componentCache: {
+    maxAge: 1000 * 60 * 60
   },
   generate: {
     subFolder: false,
