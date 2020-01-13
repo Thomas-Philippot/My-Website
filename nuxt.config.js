@@ -57,7 +57,7 @@ export default {
     "@nuxtjs/google-analytics",
     "@nuxtjs/sitemap",
     "@nuxtjs/robots",
-    '@nuxtjs/component-cache'
+    "@nuxtjs/component-cache"
   ],
   axios: {
     baseURL: process.env.API_URL
