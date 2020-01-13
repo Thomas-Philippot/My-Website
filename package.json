@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
+    "@nuxtjs/component-cache": "^1.1.5",
     "@nuxtjs/axios": "^5.9.3",
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/google-analytics": "^2.2.3",
