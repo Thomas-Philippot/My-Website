@@ -9,8 +9,8 @@
         </div>
       </div>
       <div class="container">
-        <div class="columns">
-            <div class="column is-full-tablet is-one-third-desktop " v-for="article in articles" :key="article.id">
+        <div class="columns is-multiline">
+            <div class="column is-full-tablet is-one-third-desktop" v-for="article in articles" :key="article.id">
               <nuxt-link :to="'blog/' + article.id">
                 <div class="card">
                     <div class="card-image">
