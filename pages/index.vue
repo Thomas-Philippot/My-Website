@@ -71,19 +71,16 @@
     </section>
     <section class="is-medium">
       <div class="container">
-        <h2 class="is-title has-text-centered">The projects I made</h2>
-        <div class="columns has-text-centered">
-          <div class="column">
+        <h2 class="title has-text-centered">The projects I made</h2>
+        <div class="columns has-text-centered is-multiline">
+          <div
+            v-for="(item, id) in projects"
+            :key="id"
+            class="column"
+          >
             <div class="box is-hover">
-              <a href="https://esr-handball.fr" target="_blank">
-                <img src="/img/esr-hand.png" alt="my sowcase app" loading="lazy">
-              </a>
-            </div>
-          </div>
-          <div class="column">
-            <div class="box is-hover">
-              <a href="https://nuxt-showcase-app.netlify.com" target="_blank">
-                <img src="/img/showcase.png" alt="my sowcase app" loading="lazy">
+              <a :href="item.link" target="_blank">
+                <img :src="item.imageSrc" :alt="item.imageAlt">
               </a>
             </div>
           </div>
@@ -95,6 +92,27 @@
 
 <script>
 export default {
+  data () {
+    return {
+      projects: [
+        {
+          imageSrc: 'img/esr-hand.png',
+          imageAlt: 'Es Redon Handball website',
+          link: 'https://esr-handball.fr'
+        },
+        {
+          imageSrc: 'img/showcase.png',
+          imageAlt: 'My showcase app',
+          link: 'https://nuxt-showcase-app.netlify.com'
+        },
+        {
+          imageSrc: 'img/mineral-contest.png',
+          imageAlt: 'Mineral Contest Minecraft plugin',
+          link: 'https://mineral-contest.netlify.app'
+        }
+      ]
+    }
+  }
 }
 </script>
 
