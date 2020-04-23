@@ -26,9 +26,9 @@
         <img src="/img/btc-adresse.png" alt="BTC Adresse" height="80" width="80">
       </div>
       <div class="bulma has-text-centered">
-        <p>Made with heart by Thomas Philippot</p>
+        <p>Made with ❤️ by Thomas Philippot</p>
         <a href="https://bulma.io">
-          <img src="https://bulma.io/images/made-with-bulma--white.png" alt="made with bulma" height="30" width="160">
+          <img src="/img/bulma.png" alt="made with bulma" height="20" width="100">
         </a>
       </div>
     </footer>

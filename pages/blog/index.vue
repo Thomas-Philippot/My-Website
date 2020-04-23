@@ -9,19 +9,19 @@
         </div>
       </div>
       <div class="container">
-        <div class="columns">
-            <div class="column is-full-tablet is-one-third-desktop " v-for="article in articles" :key="article.id">
+        <div class="columns is-multiline">
+            <div class="column is-full-tablet is-one-third-desktop" v-for="article in articles" :key="article.id">
               <nuxt-link :to="'blog/' + article.id">
                 <div class="card">
                     <div class="card-image">
                         <figure class="image">
-                            <img :src="article.cover_image" alt="Placeholder image">
+                            <img :src="article.cover_image" alt="Placeholder image" loading="lazy">
                         </figure>
                     </div>
                     <div class="card-content">
                         <div class="media">
                             <div class="media-content">
-                                <p class="title is-4">{{ article.title }}</p>
+                                <p class="is-title blog is-4">{{ article.title }}</p>
                                 <p class="subtitle is-6">{{ article.description }}</p>
                             </div>
                         </div>
