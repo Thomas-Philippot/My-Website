@@ -6,7 +6,7 @@
           <div class="columns is-modbile is-centered">
             <div class="column is-half">
               <h1 class="is-title is-spaced is-1">
-                Fullstack student Developer
+                Fullstack Developer
               </h1>
               <h2 class="subtitle is-size-4-desktop">
                 I am a french developer, learning in progress.
@@ -33,8 +33,7 @@
             Hi my name is Thomas.
           </h2>
           <h3 class="subtitle has-text-white">
-            I'm learning various programming laguages since 3 years. I'm now a developer for a french company since
-            1 year.
+            I'm learning various programming laguages since 2018. I'm now a developer for a french company now.
           </h3>
         </div>
       </div>
