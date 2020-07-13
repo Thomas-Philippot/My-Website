@@ -16,6 +16,7 @@ $link: $green;
 // Update some of Bulma's component variables
 $body-background-color: $grey-lighter;
 $footer-background-color: $primary;
+$footer-padding: 3rem 1.5rem 3rem;
 $subtitle-color: $primary;
 // Import only what you need from Bulma
 @import "~bulma/bulma";
