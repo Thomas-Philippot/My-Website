@@ -42,7 +42,6 @@
 
 <style scoped>
     nav {
-      margin-bottom: 25px;
       padding: 1.25rem 0;
     }
 </style>
