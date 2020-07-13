@@ -39,6 +39,12 @@ body {
   line-height: 1.5;
 }
 
+#green-wave {
+  background-image: url("/layout/green-wave.svg");
+  background-size: cover;
+  background-position: center;
+}
+
 section.is-success {
   background-color: #4fc08d;
 }
@@ -83,6 +89,12 @@ img.is-128x128 {
   opacity: 0.6;
 }
 
+#wave {
+  height: 15rem;
+  background-image: url("/layout/wave.svg");
+  background-size: cover;
+  background-position: center;
+}
 
 footer a.button {
   background-color: transparent;

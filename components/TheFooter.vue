@@ -1,4 +1,6 @@
 <template>
+  <div>
+    <div id="wave" />
     <footer class="footer">
       <div class="content has-text-centered">
         <a class="button is-medium" href="https://twitter.com/Thomas_ph35" target="_blank">
@@ -48,6 +50,7 @@
         </a>
       </div>
     </footer>
+  </div>
 </template>
 
 <script>
@@ -58,7 +61,7 @@
 
 <style scoped>
 
-    footer {
+    #wave {
         margin-top: 25px;
     }
 
