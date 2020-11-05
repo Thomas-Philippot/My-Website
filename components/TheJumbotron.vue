@@ -29,10 +29,8 @@
 </script>
 
 <style scoped>
-
-    footer {
-        margin-top: 25px;
-    }
-
+.breadcrumb {
+  margin-top: 25px;
+}
 </style>
 

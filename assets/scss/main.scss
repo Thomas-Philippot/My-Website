@@ -1,23 +1,25 @@
 @charset "utf-8";
 
 // Set your brand colors
-$grey: #273849;
-$green: #4fc08d;
-$grey-lighter: #e6e6e6;
+$red: #E63946;
+$blue: #1d3557;
+$blue-lighten: #A8DADC;
+$honeydew: #F1FAEE;
 $family-angelina: "Angelina", sans-serif;
 
 
 // Update Bulma's global variables
 $family-sans-serif: "Raleway", sans-serif;
-$primary: $grey;
-$success: $green;
-$link: $green;
+$primary: $red;
+$success: $blue;
+$link: $blue;
 
 // Update some of Bulma's component variables
-$body-background-color: $grey-lighter;
+$body-background-color: $honeydew;
+$navbar-background-color: $blue-lighten;
 $footer-background-color: $primary;
 $footer-padding: 3rem 1.5rem 3rem;
-$subtitle-color: $primary;
+$subtitle-color: $blue-lighten;
 // Import only what you need from Bulma
 @import "~bulma/bulma";
 
@@ -45,7 +47,7 @@ $subtitle-color: $primary;
 }
 
 .highlight .nt, .highlight .k, .highlight .kc {
-  color: $green;
+  color: $red;
 }
 
 .highlight .na, .highlight .s1 {
