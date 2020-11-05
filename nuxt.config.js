@@ -3,7 +3,6 @@ require("dotenv").config();
 const axios = require("axios");
 
 export default {
-  mode: "universal",
   /*
   ** Headers of the page
   */
