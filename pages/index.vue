@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero has-text-centered" id="green-wave">
+    <section class="hero has-text-centered">
       <div class="hero-body">
         <div class="container is-jumbotron">
           <div class="columns is-modbile is-centered">
@@ -29,16 +29,16 @@
     <section class="section is-success is-medium has-text-centered is-long">
       <div class="hero-body">
         <div class="container">
-          <h2 class="is-title is-2">
+          <h2 class="is-title is-2 has-text-white">
             Hi my name is Thomas.
           </h2>
           <h3 class="subtitle">
-            I'm learning various programming laguages since 2018. I'm now a developer for a french company now.
+            I'm learning various programming languages since 2018. I'm now a developer for a french company now.
           </h3>
         </div>
       </div>
     </section>
-    <section class="section skills has-text-centered">
+    <section class="section skills has-text-centered" id="main-wave">
       <div class="container is-narrow">
         <div class="box">
           <div class="content">
