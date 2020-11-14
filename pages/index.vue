@@ -63,7 +63,7 @@
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section" id="project">
       <div class="container has-text-centered">
         <img src="/img/web_dev.svg" alt="web developer" width="450r" loading="lazy">
       </div>
