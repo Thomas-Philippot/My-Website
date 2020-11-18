@@ -39,23 +39,25 @@ body {
   line-height: 1.5;
 }
 
+@media screen and (min-width: 2000px){
+  #main-wave {
+    height: 55vh;
+  }
+}
+
 #main-wave {
-  height: 55vh;
   background-image: url("/layout/wave-1.svg");
   background-size: cover;
   background-position: top;
 }
 
-#project {
-  margin-top: -7rem;
-}
 
 section.is-success {
   background-color: #1D3557;
 }
 
 section.skills {
-  margin-top: -15vh;
+  margin-top: -10vh;
   padding-bottom: 1rem;
 }
 

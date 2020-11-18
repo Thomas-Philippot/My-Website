@@ -3,7 +3,7 @@
     <section class="hero has-text-centered">
       <div class="hero-body">
         <div class="container is-jumbotron">
-          <div class="columns is-modbile is-centered">
+          <div class="columns is-mobile is-centered">
             <div class="column is-half">
               <h1 class="is-title is-spaced is-1">
                 Fullstack Developer
@@ -22,19 +22,27 @@
       </div>
       <div class="hero-foot">
         <div class="container">
-          <img class="is-bottom" src="/img/banner.svg" alt="">
+          <div class="columns">
+            <div class="column">
+              <img class="is-bottom" src="/img/banner.svg" alt="" width="100%">
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <section class="section is-success is-medium has-text-centered is-long">
       <div class="hero-body">
         <div class="container">
-          <h2 class="is-title is-2 has-text-white">
-            Hi my name is Thomas.
-          </h2>
-          <h3 class="subtitle">
-            I'm learning various programming languages since 2018. I'm now a developer for a french company now.
-          </h3>
+          <div class="columns">
+            <div class="column">
+              <h2 class="is-title is-2 has-text-white">
+                Hi my name is Thomas.
+              </h2>
+              <h3 class="subtitle">
+                I'm learning various programming languages since 2018. I'm now a developer for a french company now.
+              </h3>
+            </div>
+          </div>
         </div>
       </div>
     </section>
