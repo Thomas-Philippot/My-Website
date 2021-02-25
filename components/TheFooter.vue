@@ -25,7 +25,7 @@
         </a>
       </div>
       <div class="bitcoin has-text-centered">
-        <img src="/img/btc-adresse.png" alt="BTC Adresse" height="80" width="80">
+        <img src="/img/btc_addresse.png" alt="BTC Adresse" height="80" width="80">
       </div>
       <div class="bulma has-text-centered mt-3">
         <div class="columns">
